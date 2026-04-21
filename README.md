@@ -12,18 +12,18 @@ Bài lab bám theo luồng hệ thống trong file hướng dẫn: Sender tạo 
 - Khi demo, giảng viên có thể hỏi chéo bất kỳ thành viên nào về **sender**, **receiver**, **DES-CBC**, **padding**, **threat model** và **ethics**.
 
 ## Team members
-- **Thành viên 1**: TODO_MEMBER_1 - MSSV: TODO_MEMBER_1_ID
-- **Thành viên 2**: TODO_MEMBER_2 - MSSV: TODO_MEMBER_2_ID
+- **Thành viên 1**: Đỗ Trung Kiên - MSSV: 1871020344
+- **Thành viên 2**: ******** - MSSV: ********
 
 ## Task division
-- **Thành viên 1 phụ trách chính**: TODO_ROLE_MEMBER_1
-- **Thành viên 2 phụ trách chính**: TODO_ROLE_MEMBER_2
-- **Phần làm chung**: TODO_SHARED_WORK
+- **Thành viên 1 phụ trách chính**: Xây dựng tiến trình `sender.py`, thực hiện các hàm đóng gói packet (`build_packet`), mã hóa DES-CBC, pad dữ liệu, và viết test case cho phần `tamper`.
+- **Thành viên 2 phụ trách chính**: Xây dựng tiến trình `receiver.py`, thực hiện các hàm bóc tách packet (`parse_header`), giải mã, unpad dữ liệu, và viết test case cho phần `wrong_key`.
+- **Phần làm chung**: Cùng thiết kế cấu trúc Header của gói tin, phân tích Threat model, và viết báo cáo `report-1page.md`.
 
 ## Demo roles
-- **Bạn nào demo Sender / gói tin / log gửi**: TODO_DEMO_ROLE_1
-- **Bạn nào demo Receiver / giải mã / log nhận**: TODO_DEMO_ROLE_2
-- **Cả hai cùng trả lời threat model và ethics**: TODO_DEMO_ROLE_SHARED
+- **Bạn nào demo Sender / gói tin / log gửi**: Đỗ Trung Kiên (Thành viên 1) sẽ chạy demo trên terminal Sender, giải thích cách tạo Key ngẫu nhiên, IV và đóng gói dữ liệu trước khi gửi.
+- **Bạn nào demo Receiver / giải mã / log nhận**: ******** (Thành viên 2) sẽ chạy demo trên terminal Receiver, giải thích luồng nhận byte qua TCP socket, bóc tách Header và in ra bản rõ.
+- **Cả hai cùng trả lời threat model và ethics**: Cả hai cùng trình bày về lỗ hổng của việc gửi Key dạng plaintext và cách khắc phục trong thực tế.
 
 ## Mục tiêu học tập
 - Hiểu luồng hoạt động của hệ thống Sender/Receiver qua TCP socket.

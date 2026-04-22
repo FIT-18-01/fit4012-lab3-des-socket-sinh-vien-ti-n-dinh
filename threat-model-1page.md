@@ -2,7 +2,7 @@
 
 ## Thông tin nhóm
 - Thành viên 1: Đỗ Trung Kiên
-- Thành viên 2: ********
+- Thành viên 2: Nguyễn Việt Cường
 
 ## Assets
 - Dữ liệu gốc truyền tải (Plaintext).

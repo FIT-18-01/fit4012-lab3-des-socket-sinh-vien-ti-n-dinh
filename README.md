@@ -13,7 +13,7 @@ Bài lab bám theo luồng hệ thống trong file hướng dẫn: Sender tạo 
 
 ## Team members
 - **Thành viên 1**: Đỗ Trung Kiên - MSSV: 1871020344
-- **Thành viên 2**: ******** - MSSV: ********
+- **Thành viên 2**: Nguyễn Việt Cường - MSSV: 1871020114
 
 ## Task division
 - **Thành viên 1 phụ trách chính**: Xây dựng tiến trình `sender.py`, thực hiện các hàm đóng gói packet (`build_packet`), mã hóa DES-CBC, pad dữ liệu, và viết test case cho phần `tamper`.
@@ -22,7 +22,7 @@ Bài lab bám theo luồng hệ thống trong file hướng dẫn: Sender tạo 
 
 ## Demo roles
 - **Bạn nào demo Sender / gói tin / log gửi**: Đỗ Trung Kiên (Thành viên 1) sẽ chạy demo trên terminal Sender, giải thích cách tạo Key ngẫu nhiên, IV và đóng gói dữ liệu trước khi gửi.
-- **Bạn nào demo Receiver / giải mã / log nhận**: ******** (Thành viên 2) sẽ chạy demo trên terminal Receiver, giải thích luồng nhận byte qua TCP socket, bóc tách Header và in ra bản rõ.
+- **Bạn nào demo Receiver / giải mã / log nhận**: Nguyễn Việt Cường (Thành viên 2) sẽ chạy demo trên terminal Receiver, giải thích luồng nhận byte qua TCP socket, bóc tách Header và in ra bản rõ.
 - **Cả hai cùng trả lời threat model và ethics**: Cả hai cùng trình bày về lỗ hổng của việc gửi Key dạng plaintext và cách khắc phục trong thực tế.
 
 ## Mục tiêu học tập
